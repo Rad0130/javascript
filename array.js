@@ -17,3 +17,10 @@ if(friends.includes('chad')){
 else{
     console.log('it does not exist')
 }
+
+
+for(const name of friends){
+    console.log(name)
+}
+
+console.log(Array.isArray(friends))
