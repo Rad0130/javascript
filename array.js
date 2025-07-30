@@ -8,3 +8,12 @@ console.log(friends.shift())
 friends.unshift('chauhd', 'uhusbf', 'zuhsdhf', 'iysd')
 
 console.log(friends)
+
+
+if(friends.includes('chad')){
+    console.log('it exists')
+}
+
+else{
+    console.log('it does not exist')
+}
